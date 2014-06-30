@@ -1,0 +1,1928 @@
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2573 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2356 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2149 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2319 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2231 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2485 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2604 ms]
+
+---
+build.dart --machine --changed=lib/x_roll.html
+
+build.dart finished [1990 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2880 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2845 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2410 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Move HTML imports above your Dart script tag.","line":17,"charStart":618,"charEnd":663}}]
+build.dart finished [2619 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2163 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2015 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2166 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2014 ms]
+
+---
+build.dart --machine --changed=LICENSE --changed=README.md
+
+build.dart finished [2101 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [2286 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [2043 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1928 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1941 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2448 ms]
+
+---
+build.dart --machine --changed=lib/x_roll.html
+[{"method":"warning","params":{"file":"lib/x_roll.html","message":"Invalid url to reach to another package: packages/polymer/polymer.html. Path reaching to other packages must first reach up all the way to the packages folder. For example, try changing the url above to: ../../packages/polymer/polymer.html","line":1,"charStart":0,"charEnd":56}}]
+[{"method":"warning","params":{"file":"lib/x_roll.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../../packages/polymer/polymer.html\">.","line":2,"charStart":57,"charEnd":124}}]
+[{"method":"warning","params":{"file":"lib/x_roll.html","message":"Invalid url to reach to another package: packages/polymer/polymer.html. Path reaching to other packages must first reach up all the way to the packages folder. For example, try changing the url above to: ../../packages/polymer/polymer.html","line":1,"charStart":0,"charEnd":56}}]
+build.dart finished [1933 ms]
+
+---
+build.dart --machine --changed=lib/x_roll.html
+
+build.dart finished [2070 ms]
+
+---
+build.dart --machine --changed=lib/x_roll.html
+
+build.dart finished [1974 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.html --removed=lib/x_roll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"lib/x_roll.html\" in package \"x_roll\".","line":14,"charStart":475,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"x-roll\" not found.","line":20,"charStart":571,"charEnd":616}}]
+build.dart finished [2165 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"lib/x_roll.html\" in package \"x_roll\".","line":14,"charStart":475,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"x-roll\" not found.","line":20,"charStart":571,"charEnd":616}}]
+build.dart finished [2060 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"lib/x_roll.html\" in package \"x_roll\".","line":14,"charStart":475,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"x-roll\" not found.","line":20,"charStart":571,"charEnd":616}}]
+build.dart finished [2187 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.css --removed=lib/x_roll.css
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"lib/x_roll.html\" in package \"x_roll\".","line":14,"charStart":475,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"x-roll\" not found.","line":20,"charStart":571,"charEnd":616}}]
+build.dart finished [2065 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.dart --removed=lib/x_roll.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"lib/x_roll.html\" in package \"x_roll\".","line":14,"charStart":475,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"x-roll\" not found.","line":20,"charStart":571,"charEnd":616}}]
+build.dart finished [2150 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"lib/x_roll.html\" in package \"x_roll\".","line":14,"charStart":475,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"x-roll\" not found.","line":20,"charStart":571,"charEnd":616}}]
+build.dart finished [4982 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"lib/x_roll.html\" in package \"scroll_roll\".","line":14,"charStart":475,"charEnd":520}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"x-roll\" not found.","line":20,"charStart":571,"charEnd":616}}]
+build.dart finished [2045 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2306 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.dart
+
+build.dart finished [2088 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.dart
+
+build.dart finished [2072 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.dart
+
+build.dart finished [2356 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.dart
+
+build.dart finished [2324 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css --changed=web/scroll_roll.dart --changed=web/scroll_roll.htm...
+
+build.dart finished [2010 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2460 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2045 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2191 ms]
+
+---
+build.dart --machine --removed=lib/scroll_roll.css --removed=lib/scroll_roll.dart --removed=lib/scroll_roll.htm...
+
+build.dart finished [2677 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2518 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2945 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2927 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2677 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2366 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [5149 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2410 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2416 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2239 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"x-roll\" not found.","line":19,"charStart":572,"charEnd":615}}]
+build.dart finished [11144 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [9821 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [4919 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1955 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2221 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2123 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2158 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2389 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2531 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2059 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2084 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2036 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2173 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2178 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2329 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2377 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2215 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [4028 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2282 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2454 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [4254 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2664 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2226 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2651 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2287 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2270 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2481 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2356 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2802 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2300 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [5738 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2253 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2336 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2197 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2316 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2443 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2196 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2520 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2491 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [4427 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2894 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2321 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [1966 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2589 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2768 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2108 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3719 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2476 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3424 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2372 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2386 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2538 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2494 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3471 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [4173 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3275 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2095 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2643 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2214 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2108 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2323 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2380 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2121 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2316 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2026 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2270 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2323 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2185 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2074 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2351 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2255 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2061 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [1945 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2249 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2200 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2052 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2100 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2125 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2188 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2454 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2147 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2268 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3877 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2171 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2163 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2120 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2284 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3280 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2755 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2218 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2117 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2360 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2305 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2973 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2155 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2298 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2225 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2315 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3093 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+[{"method":"warning","params":{"file":"web/scroll_roll.html","message":"Unexpected end tag (template). Ignored.","line":10,"charStart":357,"charEnd":368}}]
+build.dart finished [2353 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+[{"method":"warning","params":{"file":"web/scroll_roll.html","message":"Unexpected end tag (template). Ignored.","line":10,"charStart":350,"charEnd":361}}]
+build.dart finished [2234 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+[{"method":"warning","params":{"file":"web/scroll_roll.html","message":"Unexpected end tag (template). Ignored.","line":10,"charStart":350,"charEnd":361}}]
+build.dart finished [2096 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2483 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2364 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [3627 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2230 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2314 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2169 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2233 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2703 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2374 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2281 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2761 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2306 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2498 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2708 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2808 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2280 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2239 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2174 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2228 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2064 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3208 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2477 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2313 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2465 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2075 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2588 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2467 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2363 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [5502 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [3285 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [3315 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2976 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2411 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2484 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2191 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2677 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2355 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2687 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3037 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2389 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2495 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2131 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2242 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2277 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2130 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [4022 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2262 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2689 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2337 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2226 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2310 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2474 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2387 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2361 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2184 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2175 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2135 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2110 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2049 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2067 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [3921 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2211 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2141 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2973 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2298 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2172 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2324 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2268 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2188 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3129 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [4081 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2177 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2714 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2189 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.css
+
+build.dart finished [2372 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Unexpected character after attribute value.","line":39,"charStart":924,"charEnd":954}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":956}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":959}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":962}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":966}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":969}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":973}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":976}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":980}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":983}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":987}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":990}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":992}}]
+build.dart finished [2209 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2289 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Unexpected character in unquoted attribute","line":39,"charStart":924,"charEnd":951}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Unexpected character in unquoted attribute","line":39,"charStart":924,"charEnd":953}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Unexpected character in unquoted attribute","line":39,"charStart":924,"charEnd":955}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Unexpected character in unquoted attribute","line":39,"charStart":924,"charEnd":957}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":960}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":962}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Unexpected character after attribute name.","line":39,"charStart":924,"charEnd":965}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":967}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Unexpected character after attribute name.","line":39,"charStart":924,"charEnd":970}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":972}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Unexpected character after attribute name.","line":39,"charStart":924,"charEnd":975}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Invalid character in attribute name","line":39,"charStart":924,"charEnd":977}}]
+build.dart finished [2061 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [4539 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2403 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [3762 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3491 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2444 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2553 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2391 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2630 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2170 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2484 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2122 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2806 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [5346 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3349 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2535 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2598 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2623 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [3333 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [4288 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2562 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2290 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2549 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2409 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2211 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2244 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2622 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2330 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2710 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2432 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2225 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [4437 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2880 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2115 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2256 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2371 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2227 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2100 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2778 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2707 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3257 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2569 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2815 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2782 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2545 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2571 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3195 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2914 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2726 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3085 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3446 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [3416 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2457 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2483 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2498 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2081 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2196 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2355 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2666 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [6467 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2194 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2251 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2698 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2198 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2243 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3808 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2982 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2347 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2057 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2119 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2323 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2097 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2149 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2211 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2287 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2503 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2320 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2344 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2379 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2561 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [7525 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2364 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [8102 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [3273 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [3929 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+[{"method":"warning","params":{"file":"web/scroll_roll.html","message":"Unexpected character after attribute value.","line":5,"charStart":204,"charEnd":284}}]
+[{"method":"warning","params":{"file":"web/scroll_roll.html","message":"Invalid character in attribute name","line":5,"charStart":204,"charEnd":306}}]
+error running barback: Transform polymer (Linter) on scroll|web/scroll_roll.html threw error: type 'ParseErrorToken' is not a subtype of type 'StartTagToken' in type cast.
+package:html5lib/dom.dart 328:35              Node._ensureAttributeSpans
+package:html5lib/dom.dart 175:26              Node.attributeSpans
+package:polymer/src/build/linter.dart 405:22  _LinterVisitor._validateEventHandler
+package:polymer/src/build/linter.dart 316:30  _LinterVisitor._validateNormalElement.<fn>
+dart:collection                               _HashMap&&_LinkedHashMapMixin.forEach
+package:polymer/src/build/linter.dart 314:28  _LinterVisitor._validateNormalElement
+package:polymer/src/build/linter.dart 177:32  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 39:50       TreeVisitor.visitElement
+package:polymer/src/build/linter.dart 178:28  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 39:50       TreeVisitor.visitElement
+package:polymer/src/build/linter.dart 272:23  _LinterVisitor._validatePolymerElement
+package:polymer/src/build/linter.dart 174:54  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 39:50       TreeVisitor.visitElement
+package:polymer/src/build/linter.dart 178:28  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 39:50       TreeVisitor.visitElement
+package:polymer/src/build/linter.dart 178:28  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 32:52       TreeVisitor.visitDocument
+package:html5lib/dom_parsing.dart 16:52       TreeVisitor.visit
+package:polymer/src/build/linter.dart 184:10  _LinterVisitor.run
+package:polymer/src/build/linter.dart 41:17   Linter.apply.<fn>.<fn>
+dart:isolate                                  _RawReceivePortImpl._handleMessage
+build.dart finished [2084 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+[{"method":"warning","params":{"file":"web/scroll_roll.html","message":"Invalid character in attribute name","line":5,"charStart":204,"charEnd":284}}]
+[{"method":"warning","params":{"file":"web/scroll_roll.html","message":"Invalid character in attribute name","line":5,"charStart":204,"charEnd":307}}]
+error running barback: Transform polymer (Linter) on scroll|web/scroll_roll.html threw error: type 'ParseErrorToken' is not a subtype of type 'StartTagToken' in type cast.
+package:html5lib/dom.dart 328:35              Node._ensureAttributeSpans
+package:html5lib/dom.dart 175:26              Node.attributeSpans
+package:polymer/src/build/linter.dart 405:22  _LinterVisitor._validateEventHandler
+package:polymer/src/build/linter.dart 316:30  _LinterVisitor._validateNormalElement.<fn>
+dart:collection                               _HashMap&&_LinkedHashMapMixin.forEach
+package:polymer/src/build/linter.dart 314:28  _LinterVisitor._validateNormalElement
+package:polymer/src/build/linter.dart 177:32  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 39:50       TreeVisitor.visitElement
+package:polymer/src/build/linter.dart 178:28  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 39:50       TreeVisitor.visitElement
+package:polymer/src/build/linter.dart 272:23  _LinterVisitor._validatePolymerElement
+package:polymer/src/build/linter.dart 174:54  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 39:50       TreeVisitor.visitElement
+package:polymer/src/build/linter.dart 178:28  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 39:50       TreeVisitor.visitElement
+package:polymer/src/build/linter.dart 178:28  _LinterVisitor.visitElement
+package:html5lib/dom_parsing.dart 12:50       TreeVisitor.visit
+package:html5lib/dom_parsing.dart 24:49       TreeVisitor.visitChildren
+package:html5lib/dom_parsing.dart 30:48       TreeVisitor.visitNodeFallback
+package:html5lib/dom_parsing.dart 32:52       TreeVisitor.visitDocument
+package:html5lib/dom_parsing.dart 16:52       TreeVisitor.visit
+package:polymer/src/build/linter.dart 184:10  _LinterVisitor.run
+package:polymer/src/build/linter.dart 41:17   Linter.apply.<fn>.<fn>
+dart:isolate                                  _RawReceivePortImpl._handleMessage
+build.dart finished [5324 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2190 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [2395 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2243 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2881 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [11246 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2230 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2379 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2671 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [4445 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2610 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2593 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2441 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [3680 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [4636 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.html
+
+build.dart finished [5256 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [2059 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3267 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3070 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3428 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2426 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2620 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2503 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2740 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2740 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2702 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2336 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2866 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2389 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2096 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2318 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2218 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2309 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [3132 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2266 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2219 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2442 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [7486 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2074 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2417 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2494 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2619 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2639 ms]
+
+---
+build.dart --machine --changed=web/scroll_roll.dart
+
+build.dart finished [2359 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [3018 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2191 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2067 ms]
+

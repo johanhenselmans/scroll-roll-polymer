@@ -1,0 +1,116 @@
+/* Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file */
+/* for details. All rights reserved. Use of this source code is governed by a */
+/* BSD-style license that can be found in the LICENSE file. */
+html {
+  height: 100%;
+  
+}
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+  height: 100%;
+}
+
+p {
+  color: #333;
+}
+
+div#container  {
+  float: left;
+  width: 100px;
+  height: 240px;
+//  width: 20%;
+//  height: 40%;
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+
+.error {
+  font-style: italic;
+  color: red;
+}
+
+div#container2 {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  margin: auto;  
+  margin-top: 80%;  
+
+  perspective: 600px;
+  -ms-perspective: 600px;
+  -moz-perspective: 600px;
+  -webkit-perspective: 600px;
+}
+
+div#target {
+  width: 100%;
+  height: 100%;
+  
+  margin-left: 0%;
+  position: absolute;
+  font-family: 'Impact', serif;
+}
+
+div#target figure {
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  height: 80%;
+
+  margin: auto;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+  font-size: 40px;
+  line-height: 1.2em;
+  text-align: center;
+  
+  color: #FFF;
+  background: #000;
+  
+  // border: 1px solid #222;
+  border-radius: 10px;
+}
+
+.figure {
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  height: 80%;
+
+  margin: auto;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+  font-size: 40px;
+  line-height: 1.2em;
+  text-align: center;
+  
+  color: #FFF;
+  background: #000;
+  
+  // border: 1px solid #222;
+  border-radius: 10px;
+}
+
+.transformable {
+  transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  
+  transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+}
