@@ -2,7 +2,7 @@ name: scroll
 version: 0.0.1
 author: Johan Henselmans<johanhenselmans@gmail.com>
 description: A demo using touch gestures and CSS 3D transforms to roll a list of strings
-homepage: https://github.com/johanhenselmans/scrollrollpolymer
+homepage: https://github.com/johanhenselmans/scroll-roll-polymer
 dependencies:
   browser: any
   polymer: '>=0.11.0-dev.2 <0.12.0'
