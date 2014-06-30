@@ -1,4 +1,4 @@
-name: scroll
+name: scrollroll
 version: 0.0.1
 author: Johan Henselmans<johanhenselmans@gmail.com>
 description: A demo using touch gestures and CSS 3D transforms to roll a list of strings

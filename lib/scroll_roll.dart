@@ -1,3 +1,4 @@
+library scroll_roll;
 // Copyright (c) 2014, .  Please see the AUTHORS file
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
@@ -12,8 +13,14 @@ import 'package:polymer/polymer.dart';
 class ScrollRoll extends PolymerElement {
 
   @published List listOfItems;
-  @published String resultItem;
+  @PublishedProperty(reflect: true) String resultItem;
   @published bool debugOn=false;
+  @published String cssheight = "";
+  @published String csswidth = "";
+  @PublishedProperty(reflect: true) int fontsize;
+  @PublishedProperty(reflect: true) int containerposition;
+  @PublishedProperty(reflect: true) int cssintheight;
+  @PublishedProperty(reflect: true) int cssintwidth;
 
 Element target;
 Element container;
@@ -27,9 +34,23 @@ Timer timer;
 int touchStartX;
 int touchStartY;
 bool ownMouse;
-
+StreamSubscription theKeyDownListener;
+StreamSubscription theKeyUpListener;
 
 ScrollRoll.created() : super.created() {
+
+  if (cssheight == ""){
+   cssintheight = 200;
+  } else {
+    //cssheight = 200;
+    cssintheight = int.parse(cssheight);
+  }
+  if (csswidth == ""){
+    cssintwidth = 100;
+  } else {
+    //csswidth = 100;
+    cssintwidth = int.parse(csswidth);
+  }
 
 }
 
@@ -38,18 +59,26 @@ ScrollRoll.created() : super.created() {
     super.attached();
     ownMouse = false;
     childCount = listOfItems.length;
-    print("list of items: $listOfItems, $childCount");
+    if(debugOn ==true ){
+      print("list of items: $listOfItems, $childCount");
+    }
     target = $['target'];
-    container = $['container'];
-    //target = $[querySelector('target')];
     //target = querySelector('#target');
+    container = $['container'];
 
     initialize3D();
 
+
+    if (resultItem != ""){
+      //check if the resultItem is in the list
+      if (listOfItems.contains(resultItem)){
+        num index = listOfItems.indexOf(resultItem);
+        spinFigure(target, index);
+      }
+    }
     // Handle touch events.
 
-//    target.onTouchStart.listen((TouchEvent event) {
-      container.onTouchStart.listen((TouchEvent event) {
+    container.onTouchStart.listen((TouchEvent event) {
       event.preventDefault();
 
       if (event.touches.length > 0) {
@@ -58,7 +87,6 @@ ScrollRoll.created() : super.created() {
       }
     });
 
-//    target.onTouchMove.listen((TouchEvent event) {
       container.onTouchMove.listen((TouchEvent event) {
       event.preventDefault();
 
@@ -100,11 +128,10 @@ ScrollRoll.created() : super.created() {
 
 
 void initialize3D() {
-
-  print("target is : $target");
+  if (debugOn == true){
+    print("target is : $target");
+  }
   target.classes.add("transformable");
-
-//  num childCount = target.children.length;
 
     scheduleMicrotask(() {
       //num height = querySelector("#target").client.height;
@@ -113,38 +140,67 @@ void initialize3D() {
       //radius = (figureHeight * 1.2).round();
       //querySelector('#container2').style.height = "${radius}px";
 
-      // calculate the height of the item to be rotated, in it's space
+      // calculate the height of the item to be rotated, in its space
       // then calculate the amount of items.
       // the circel should contain at least these amount of items.
-      // So 10 items of 100 px gives a cirkel of 1000px lengt, meaning a
+      // So 10 items of 100 px gives a cirkel of 1000px length, meaning a
       // radius of 1000px/2PI. We increase that a little to distance the figures from themselves
 
 //      num height = target.querySelector('#target figure').client.height;
 //      num height = target.querySelector('.figure').client.height;
-      num height = this.shadowRoot.querySelector('figure').client.height;
+      // the height of the container is 30 % of the container size.
+      num containerHeight = cssintheight;
+//      num containerHeight = (this.shadowRoot.querySelector('#container').client.height);
+//      num height = this.shadowRoot.querySelector('figure').client.height;
       //num height = target.client.height;
-      figureHeight = ((height/2) ~/ tan(PI/childCount)).round();
+      // the figureheight has to fit into the container with the complete circle.
+      // the radius of the circle has to be the half of the height
+      // otherwise the circle will not fit into the container
+      // then we calculate the total lenght this circle will have (which is 2*PI*Radius)
+      // then we calculate the height that one figure can have (which is the lenght of the
+      // circle divided by the amount of figures
       if (childCount > 1){
-        num lengthOfCircle = height * childCount;
+        num lengthOfCircle = 2*PI*(containerHeight/2);
+        figureHeight = ((lengthOfCircle/childCount)*0.80).round();
+        fontsize = (figureHeight *0.8).round();
+        // the height of the figure should be around 50 % of the height to be centered
+        // that means the position should be calculated according to the size of the
+        // figureHeigth
+        num remainsOfHeight = (containerHeight/2)-(figureHeight/2);
+        containerposition = remainsOfHeight.round();
+        //containerposition = (figureHeight *0.7).round();
         // we translate the target around which everything should circle in the middle of the circle
         // move the first item the length of the radius backwards and half the height downwards
-        radius = ((lengthOfCircle/(2*PI))*1.0).round();
+        radius = ((lengthOfCircle/(2*PI))*0.8).round();
       } else {
+//        num lengthOfCircle = 2*PI*(containerHeight/2);
+//        figureHeight = ((lengthOfCircle/childCount)*0.9).round();
+        figureHeight = ((containerHeight/4)).round();
+        fontsize = (figureHeight *0.8).round();
+//        containerposition = (figureHeight *0.7).round();
+//        num remainsOfHeight = (containerHeight/2)-figureHeight;
+//        containerposition = ((containerHeight/2)-remainsOfHeight).round();
+        num remainsOfHeight = (containerHeight/2)-(figureHeight/2);
+        containerposition = remainsOfHeight.round();
         radius = 0;
       }
-      num halfheight = height/2;
-      $['container2'].style.height = "${height}px";
+      $['container2'].style.height = "${figureHeight}px";
 //      querySelector('#container2').style.height = "${height}px";
       target.style.transform = "translateZ(-${radius}px)";
 //      target.style.transform = "translateZ(-${radius}px) translateY(-${figureHeight}px)";
-
-    print("height:$height figureheight: $figureHeight, radius: $radius");
-
-    for (int i = 0; i < childCount; i++) {
+    if (debugOn == true){
+       print("height:$containerHeight figureheight: $figureHeight, radius: $radius");
+    }
+    for (int i = 0; i <= childCount; i++) {
       var panel = target.children[i];
       panel.classes.add("transformable");
+//      if (i > 0){
       panel.style.transform =
           "rotateX(${i * (360 / childCount)}deg) translateZ(${radius}px)";
+//      } else {
+//        panel.style.transform =
+//            "rotateX(${i * (360 / childCount)}deg) translateZ(${radius}px)";
+//      }
     }
 
     spinFigure(target, 0);
@@ -153,13 +209,17 @@ void initialize3D() {
 
 
 void focusForKeyStrokes(){
-  print("keystrokes  focus ");
+  if (debugOn == true){
+    print("keystrokes  focus ");
+  }
   ownMouse = true;
   listenToKeyStrokes();
 }
 
 void removeFocusForKeyStrokes(){
-  print("keystrokes  remove focus ");
+  if (debugOn == true){
+    print("keystrokes  remove focus ");
+  }
   ownMouse = false;
   listenToKeyStrokes();
 }
@@ -168,8 +228,7 @@ void listenToKeyStrokes(){
 
   if (ownMouse == true){
    // Handle key events.
-   document.onKeyDown.listen((KeyboardEvent event) {
-//  container.onKeyDown.listen((KeyboardEvent event) {
+   theKeyDownListener = document.onKeyDown.listen((KeyboardEvent event) {
      switch (event.keyCode) {
        case KeyCode.DOWN:
          startSpin(target, -1);
@@ -186,26 +245,18 @@ void listenToKeyStrokes(){
      }
    });
 
-   document.onKeyUp.listen((event) => stopSpin());
-//  container.onKeyUp.listen((event) => stopSpin());
-//  document.onFocus.listen((event) => focusForKeyStrokes());
-//  document.onFocus.listen((event) => focusForKeyStrokes());
-//  document.onMouseEnter.listen((event) => focusForKeyStrokes());
-//  document.onMouseOver.listen((event) => focusForKeyStrokes());
-//  document.onMouseDown.listen((event) => focusForKeyStrokes());
-//  document.onMouseUp.listen((event) => focusForKeyStrokes());
+   theKeyUpListener = document.onKeyUp.listen((event) => stopSpin());
 
    } else {
-     document.onKeyDown.close();
-     document.onKeyDown.listen((KeyboardEvent event) => doNothing());
-     document.onKeyUp.listen((KeyboardEvent event) => doNothing());
+     if (theKeyDownListener != null){
+      theKeyDownListener.cancel();
+     }
+     if (theKeyUpListener !=null){
+      theKeyUpListener.cancel();
+     }
    }
 
 
-}
-
-void doNothing(){
-  print("we do nothing..");
 }
 
 void spinFigure(Element figure, int direction) {
@@ -215,29 +266,20 @@ void spinFigure(Element figure, int direction) {
   //Node theFigureNode = theChildrenList[theListNumber];
   //String theText = theFigureNode.text;
   var theItem = listOfItems[theListNumber];
-  // rotate the whole stuff depending on the amount of figures
-  if (debugOn){
-   print("theListNumber: $theListNumber, spinNum: $spinNum, item: $theItem");
+  if (debugOn == true){
+    print("theListNumber: $theListNumber, spinNum: $spinNum, item: $theItem");
   }
+  // rotate the whole stuff depending on the amount of figures
   anglePos += (360.0 / childCount) * direction;
-  //for (int i = 0; i < childCount; i++) {
-    //var panel = target.children[i];
-    // panel.classes.add("transformable");
-    //panel.style.transform =
-    //  "translateZ(-${radius}px) rotateX(${anglePos*i}deg)";
-  //}
     figure.style.transform =
        "rotateX(${anglePos}deg)";
       // "rotateX(${anglePos}deg) translateZ(-${figureHeight}px)";
 }
 
 /**
- * Start an indefinite spin in the given direction.
+ * Start a spin in the given direction.
  */
 void startSpin(Element figure, int direction) {
-  if (ownMouse == false){
-    return;
-  }
   // If we're not already spinning -
   if (timer == null) {
     spinFigure(figure, direction);
@@ -249,6 +291,7 @@ void startSpin(Element figure, int direction) {
 
 /**
  * Stop any spin that may be in progress.
+ * Set the resultItem
  */
 void stopSpin() {
   if (timer != null) {

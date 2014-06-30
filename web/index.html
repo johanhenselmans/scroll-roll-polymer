@@ -9,12 +9,11 @@
     <script src="packages/web_components/platform.js"></script>
     <script src="packages/web_components/dart_support.js"></script>
     <link rel="import" href="packages/polymer/polymer.html">
-        <!-- import the x_roll -->
-    <link rel="import" href="scroll_roll.html">
+        <!-- import the scroll_roll -->
+    <link rel="import" href="../lib/scroll_roll.html">
 <style type="text/css">
 html {
   height: 100%;
-  
 }
 
 body {
@@ -32,13 +31,20 @@ body {
   <body>
   
     <div id="rol1-example">
-       <scroll-roll listOfItems='["9","8","7","6","5","4","3","2","1","0"]' Debugon=true></scroll-roll>
+       <scroll-roll listOfItems='["9","8","7","6","5","4","3","2","1","0"]' ></scroll-roll>
     </div>
     
     <div id="rol2-example">
-       <scroll-roll listOfItems='["F","E", "D", "C", "B","A"]' Debugon=true ></scroll-roll>
+       <scroll-roll listOfItems='["F","E", "D", "C", "B","A"]' cssheight=100 csswidth=50 resultItem="C" debugOn=true></scroll-roll>
     </div>
     
+    <div id="rol3-example">
+       <scroll-roll listOfItems='["20","19","18","17","16","15","14","13","12","11","10","9","8","7","6","5","4","3","2","1","0"]' height=200 width=80 resultItem="10" debugOn=false></scroll-roll>
+    </div>
+
+    <div id="rol4-example">
+       <scroll-roll listOfItems='["."]' cssheight=100 csswidth=50 debugOn=true></scroll-roll>
+    </div>
     <script type="application/dart">export 'package:polymer/init.dart';</script>
     <script src="packages/browser/dart.js"></script>
     
