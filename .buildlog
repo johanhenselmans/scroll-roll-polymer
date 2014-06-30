@@ -3324,3 +3324,13 @@ build.dart --machine --changed=lib/scroll_roll.html
 
 build.dart finished [3314 ms]
 
+---
+build.dart --machine --full
+
+build.dart finished [2162 ms]
+
+---
+build.dart --machine --changed=lib/scroll_roll.dart
+
+build.dart finished [2327 ms]
+

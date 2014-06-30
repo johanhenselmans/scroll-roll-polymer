@@ -13,7 +13,7 @@ import 'package:polymer/polymer.dart';
 class ScrollRoll extends PolymerElement {
 
   @published List listOfItems;
-  @PublishedProperty(reflect: true) String resultItem;
+  @published String resultItem;
   @published bool debugOn=false;
   @published String cssheight = "";
   @published String csswidth = "";
